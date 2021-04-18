@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+}
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+table, tr, td{
+    border: 2px solid white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 200%;    
+}
+
+tr{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+}
+
+td{
+    width: 40px;
+    text-align: center;
+}
+
+.btnGenerate{
+    transition: 500ms;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px 100px;
+}
+
+.btnGenerate:hover{
+    background-color: rgb(124, 124, 124);
+}
