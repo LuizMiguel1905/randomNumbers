@@ -36,8 +36,10 @@ td{
     color: white;
     border: none;
     padding: 20px 100px;
+    cursor: pointer;
 }
 
 .btnGenerate:hover{
     background-color: rgb(124, 124, 124);
 }
+
